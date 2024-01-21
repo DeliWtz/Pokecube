@@ -6,39 +6,120 @@
       "entries": [
         {"key": "zubat","min": 1,"max": 5,"rate": 0.75},
         {"key": "geodude","min": 1,"max": 5,"rate": 0.75},
-        {"key": "roggenrola","min": 1,"max": 5,"rate": 0.75},
-        
-        {"key": "rolycoly","min": 1,"max": 5,"rate": 0.5},
+
+        {"key": "woobat","min": 1,"max": 5,"rate": 0.5},
         {"key": "diglett","min": 1,"max": 5,"rate": 0.5},
-        
+        {"key": "rolycoly","min": 1,"max": 5,"rate": 0.5},
+        {"key": "machop","min": 1,"max": 2,"rate": 0.4},
+        {"key": "geodude-alola","min": 1,"max": 5,"rate": 0.4},
+
         {"key": "yamask-galar","min": 1,"max": 5,"rate": 0.3},
-        
-        {"key": "geodude-alola","min": 1,"max": 5,"rate": 0.25},
-        {"key": "carbink","min": 1,"max": 5,"rate": 0.25},
-        
-        {"key": "diglett-alola","min": 1,"max": 5,"rate": 0.1},
+
+        {"key": "cubone","min": 1,"max": 4,"rate": 0.2},
+        {"key": "drilbur","min": 1,"max": 4,"rate": 0.2},
         {"key": "abra","min": 1,"max": 5,"rate": 0.1},
         {"key": "clefairy","min": 1,"max": 5,"rate": 0.1},
         {"key": "jigglypuff","min": 1,"max": 5,"rate": 0.1},
-        {"key": "wobbuffet","min": 1,"max": 5,"rate": 0.1},
+        {"key": "wynaut","min": 3,"max": 5,"rate": 0.1},
         {"key": "shuckle","min": 1,"max": 5,"rate": 0.1},
         {"key": "makuhita","min": 1,"max": 5,"rate": 0.1},
         {"key": "nosepass","min": 1,"max": 5,"rate": 0.1},
         {"key": "chimecho","min": 1,"max": 5,"rate": 0.1},
         {"key": "joltik","min": 1,"max": 5,"rate": 0.1},
-        {"key": "ferroseed","min": 1,"max": 5,"rate": 0.1},
+        {"key": "mawile","min": 1,"max": 2,"rate": 0.1},
 
-        {"key": "onix","min": 1,"max": 5,"rate": 0.05},
         {"key": "drowzee","min": 1,"max": 5,"rate": 0.05},
-        {"key": "whismur","min": 1,"max": 5,"rate": 0.05},
-        
-        {"key": "lunatone","min": 1,"max": 5,"rate": 0.05},
-        {"key": "solrock","min": 1,"max": 5,"rate": 0.05},
-        
+
         {"key": "chansey","min": 1,"max": 5,"rate": 0.025},
-        
+
+        {"key": "lunatone","min": 1,"max": 2,"rate": 0.005},
+        {"key": "solrock","min": 1,"max": 2,"rate": 0.005},
+
         {"key": "diancie","min": 1,"max": 1,"rate": 0.002}
-      
+
+      ]
+    },
+    {
+      "desc": "pokecube.spawns.caves.general.shallow",
+      "and_preset": "caves",
+      "not_preset": "deep_down",
+      "entries": [
+        {"key": "whismur","min": 1,"max": 5,"rate": 0.15},
+        {"key": "bronzor","min": 1,"max": 4,"rate": 0.15},
+        {"key": "noibat","min": 1,"max": 3,"rate": 0.05}
+      ]
+    },
+    {
+      "desc": "pokecube.spawns.caves.general.shallow.dawn.not_cold",
+      "and_preset": "caves, dawn",
+      "not_preset": "deep_down, cold_areas",
+      "entries": [
+        {"key": "cufant","min": 1,"max": 5,"rate": 0.35}
+      ]
+    },
+    {
+      "and_preset": "caves",
+      "not_preset": "deep_down,cold_areas",
+      "desc": "pokecube.spawns.caves.general.shallow.not_cold",
+      "entries": [
+        {"key": "yungoos","min": 1,"max": 4,"rate": 0.25},
+        {"key": "druddigon","min": 1,"max": 4,"rate": 0.05}
+      ]
+    },
+    {
+      "and_preset": "caves,hot_areas",
+      "not_preset": "deep_down",
+      "desc": "pokecube.spawns.caves.general.shallow.hot",
+      "entries": [
+        {"key": "orthworm","min": 1,"max": 3,"rate": 0.2}
+      ]
+    },
+    {
+      "and_preset": "caves,day_time",
+      "desc": "pokecube.spawns.caves.general.shallow.day",
+      "not_preset": "deep_down",
+      "entries": [
+        {"key": "misdreavus","min": 1,"max": 5,"rate": 0.125},
+        {"key": "solrock","min": 1,"max": 5,"rate": 0.1}
+      ]
+    },
+    {
+      "and_preset": "caves,night_time",
+      "not_preset": "deep_down",
+      "desc": "pokecube.spawns.caves.general.shallow.night",
+      "entries": [
+        {"key": "noibat","min": 1,"max": 3,"rate": 0.15},
+        {"key": "misdreavus","min": 1,"max": 5,"rate": 0.125},
+        {"key": "lunatone","min": 1,"max": 5,"rate": 0.1}
+      ]
+    },
+    {
+      "and_preset": "caves, deep_down",
+      "desc": "pokecube.spawns.caves.general.deep",
+      "entries": [
+        {"key": "roggenrola","min": 1,"max": 4,"rate": 0.75},
+        {"key": "carbink","min": 1,"max": 5,"rate": 0.25},
+        {"key": "dunsparce","min": 1,"max": 4,"rate": 0.25},
+        {"key": "rhyhorn","min": 1,"max": 4,"rate": 0.15},
+
+        {"key": "diglett-alola","min": 1,"max": 5,"rate": 0.3},
+        {"key": "shuckle","min": 1,"max": 5,"rate": 0.3},
+        {"key": "makuhita","min": 1,"max": 5,"rate": 0.3},
+        {"key": "nosepass","min": 1,"max": 5,"rate": 0.3},
+        {"key": "chimecho","min": 1,"max": 5,"rate": 0.3},
+        {"key": "joltik","min": 1,"max": 5,"rate": 0.3},
+        {"key": "ferroseed","min": 1,"max": 5,"rate": 0.3},
+
+        {"key": "onix","min": 1,"max": 3,"rate": 0.15},
+        {"key": "turtonator","min": 1,"max": 2,"rate": 0.1},
+        {"key": "gible","min": 1,"max": 2,"rate": 0.05},
+        {"key": "axew","min": 1,"max": 4,"rate": 0.05},
+        {"key": "deino","min": 1,"max": 3,"rate": 0.05},
+
+        {"key": "sableye","min": 1,"max": 3,"rate": 0.1},
+        {"key": "chansey","min": 1,"max": 5,"rate": 0.05},
+
+        {"key": "diancie","min": 1,"max": 1,"rate": 0.002}
       ]
     },
     {
@@ -46,7 +127,8 @@
       "and_preset": "forest_caves",
       "entries": [
         {"key": "burmy","min": 1,"max": 5,"rate": 0.2},
-        {"key": "druddigon","min": 1,"max": 5,"rate": 0.2}
+        {"key": "combee","min": 1,"max": 5,"rate": 0.2},
+        {"key": "klink","min": 1,"max": 3,"rate": 0.2}
       ]
     },
     {
@@ -68,40 +150,23 @@
       "desc": "pokecube.spawns.caves.mountains",
       "and_preset": "mountain_caves",
       "entries": [
-        {"key": "durant","min": 1,"max": 4,"rate": 0.5},
-        
-        {"key": "heatmor","min": 1,"max": 4,"rate": 0.4},
-        {"key": "deino","min": 1,"max": 4,"rate": 0.4},
-        
-        {"key": "machop","min": 1,"max": 4,"rate": 0.3},
+        {"key": "roggenrola","min": 1,"max": 4,"rate": 0.35},
+        {"key": "rolycoly","min": 1,"max": 3,"rate": 0.3},
         {"key": "makuhita","min": 1,"max": 4,"rate": 0.3},
         {"key": "numel","min": 1,"max": 4,"rate": 0.3},
         {"key": "torkoal","min": 1,"max": 4,"rate": 0.3},
         {"key": "spoink","min": 1,"max": 4,"rate": 0.3},
         {"key": "spinda","min": 1,"max": 4,"rate": 0.3},
         {"key": "dunsparce","min": 1,"max": 4,"rate": 0.3},
-        
-        {"key": "skorupi","min": 1,"max": 4,"rate": 0.2},
-        {"key": "drilbur","min": 1,"max": 4,"rate": 0.2},
-        {"key": "tynamo","min": 1,"max": 4,"rate": 0.2},
-        {"key": "drampa","min": 1,"max": 4,"rate": 0.2},
-        {"key": "jangmo-o","min": 1,"max": 4,"rate": 0.2},
-        {"key": "glimmet","min": 1,"max": 4,"rate": 0.2},
-        
-        {"key": "nosepass","min": 1,"max": 4,"rate": 0.15},
-        {"key": "meditite","min": 1,"max": 4,"rate": 0.15},
-        {"key": "timburr","min": 1,"max": 4,"rate": 0.15},
-        {"key": "mienfoo","min": 1,"max": 4,"rate": 0.15},
-        {"key": "aron","min": 1,"max": 4,"rate": 0.15},
-        {"key": "cubone","min": 1,"max": 4,"rate": 0.15},
-        {"key": "rhyhorn","min": 1,"max": 4,"rate": 0.15},
-        {"key": "gligar","min": 1,"max": 4,"rate": 0.15},
-        {"key": "nacli","min": 1,"max": 4,"rate": 0.15},
-        
-        {"key": "larvitar","min": 1,"max": 4,"rate": 0.1},
-        {"key": "axew","min": 1,"max": 4,"rate": 0.1},
-        {"key": "riolu","min": 1,"max": 4,"rate": 0.1},
-        {"key": "bagon","min": 1,"max": 4,"rate": 0.1}
+        {"key": "turtonator","min": 1,"max": 2,"rate": 0.2}
+      ]
+    },
+    {
+      "and_preset": "mountain_caves,raining,inside",
+      "not_preset": "deep_down",
+      "desc": "pokecube.spawns.caves.mountains.raining",
+      "entries": [
+        {"key": "turtonator","min": 1,"max": 2,"rate": 0.4}
       ]
     },
     {
